@@ -8,6 +8,7 @@ body {
 }
 
 a {
+  font-family: sans-serif;
   font-size: 0.8rem;
   position: fixed;
   right: -67px;
