@@ -1,6 +1,6 @@
 # TinyTetris
 
-TinySweeper is my version of the classic Tetris game written in 100 (or fewer) lines of JavaScript.
+TinyTetris is my version of the classic Tetris game written in 100 (or fewer) lines of JavaScript.
 
 Click [here](https://alaricus.github.io/TinyTetris/) to try it out.
 
