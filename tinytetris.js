@@ -24,7 +24,7 @@ const setCoords = (t, p) => t.map((r, i) => r.map((c, j) => ({ x: p.x + j, y: p.
 const placeOnWell = coords => { coords.forEach(c => { if (c.y >= 0 && c.z) { well[c.y][c.x] = '■'; } }); };
 const removeFromWell = (coords, w) => { const ww = w; coords.forEach(c => { if (c.y >= 0 && c.z) { ww[c.y][c.x] = '□'; } }); };
 const canMove = dir => {
-  const tempWell = JSON.parse(JSON.stringify(well));
+  const tempWell = structuredClone(well);
   const tempPos = { ...data.pos };
   data.oldCoords && removeFromWell(data.oldCoords, tempWell);
   if (dir === 'rotate') {
