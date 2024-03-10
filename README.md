@@ -15,3 +15,4 @@ Here is the full list:
 3. [TinyInvaders](https://github.com/Alaricus/TinyInvaders)
 4. [TinySweeper](https://github.com/Alaricus/TinySweeper)
 5. [Tiny15](https://github.com/Alaricus/Tiny15)
+6. [TinyJump](https://github.com/Alaricus/TinyJump)
